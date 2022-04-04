@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Rellenar</legend>
+        <label
+          >Inglés
+          <input type="radio" name="idioma" value="idiomaingles" /> </label
+        ><br />
+        <label
+          >Alemán
+          <input type="radio" name="idioma" value="idiomaaleman" />
+        </label>
+        <br />
+        <label
+          >Francés
+          <input type="radio" name="idioma" value="idiomafrances" />
+        </label>
+        <br />
+        <select name="conector">
+          <option value="usb">USB</option>
+          <option value="paralelo">Paralelo</option>
+          <option value="ps2">PS2</option>
+        </select>
+        <br />
+        <label>Nombre</label>
+        <input name="nombre" /><br />
+        <label>Apellidos</label>
+        <input name="apellidos" />
+      </fieldset>
+      <fieldset>
+        <legend>Indique sus preferencias por Favor</legend>
+        <select name="sexo" multiple>
+          <option value="hombre">Hombre</option>
+          <option value="mujer">Mujer</option>
+        </select>
+        <br />
+        <label>
+          <input type="checkbox" name="sexo" value="sexohombre" />
+          Hombre </label
+        ><br />
+        <label>
+          <input type="checkbox" name="sexo" value="sexomujer" /> Mujer </label
+        ><br />
+        <label>Elija una Fecha</label>
+        <input type="date" />
+      </fieldset>
+    </form>
+  </body>
+</html>
